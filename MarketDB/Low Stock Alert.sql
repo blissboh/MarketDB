@@ -1,0 +1,11 @@
+-- USE MarketDB;
+
+-- SELECT P.ProduceName,(P.Stock - IFNULL(SUM(S.Quantity), 0)) AS RemainingStock
+-- FROM 
+--     Produce P
+-- LEFT JOIN 
+--     Sales S ON P.ProduceID = S.ProduceID
+-- GROUP BY 
+--     P.ProduceID, P.ProduceName
+-- HAVING 
+--     RemainingStock < 10;

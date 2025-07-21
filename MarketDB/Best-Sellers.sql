@@ -1,0 +1,12 @@
+-- USE MarketDB;
+
+-- SELECT P.ProduceName, SUM(S.Quantity) AS TotalQuantitySold
+-- FROM 
+--     Sales S
+-- JOIN 
+--     Produce P ON S.ProduceID = P.ProduceID
+-- GROUP BY 
+--     P.ProduceName
+-- ORDER BY 
+--     TotalQuantitySold DESC
+-- LIMIT 5;

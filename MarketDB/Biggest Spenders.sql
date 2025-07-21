@@ -1,0 +1,12 @@
+-- USE MarketDB;
+
+-- SELECT B.BuyerName, SUM(S.Amount) AS TotalSpent
+-- FROM 
+--     Sales S
+-- JOIN 
+--     Buyers B ON S.BuyerID = B.BuyerID
+-- GROUP BY 
+--     B.BuyerName
+-- ORDER BY 
+--     TotalSpent DESC
+-- LIMIT 5;

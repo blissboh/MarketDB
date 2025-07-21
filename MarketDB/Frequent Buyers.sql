@@ -1,0 +1,13 @@
+-- USE MarketDB;
+
+-- SELECT B.BuyerName, COUNT(S.SaleID) AS PurchaseCount
+-- FROM 
+--     Sales S
+-- JOIN 
+--     Buyers B ON S.BuyerID = B.BuyerID
+-- GROUP BY 
+--     B.BuyerName
+-- HAVING 
+--     COUNT(S.SaleID) >= 3
+-- ORDER BY 
+--     PurchaseCount DESC;
